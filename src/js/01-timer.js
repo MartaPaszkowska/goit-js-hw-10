@@ -2,6 +2,10 @@
 import flatpickr from 'flatpickr';
 // Dodatkowy import stylów
 import 'flatpickr/dist/flatpickr.min.css';
+// Opisany w dokumentacji
+import iziToast from 'izitoast';
+// Kolejny import stylów
+import 'izitoast/dist/css/iziToast.min.css';
 
 const options = {
   enableTime: true,
