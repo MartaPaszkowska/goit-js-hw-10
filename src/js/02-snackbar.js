@@ -1,4 +1,4 @@
-// Opisany w dokumentacji
+'use strict';
+////////biblioteki/////////////
 import iziToast from 'izitoast';
-// Kolejny import stylów
 import 'izitoast/dist/css/iziToast.min.css';
