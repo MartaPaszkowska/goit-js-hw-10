@@ -1,19 +1,81 @@
+section {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+#datetime-picker {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Stylizacja dla timera */
 .timer {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  margin-top: 10px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .field {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e9f1fc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .value {
-  font-size: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
 }
+
 .label {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 5px;
 }
